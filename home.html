@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Registration</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Portal</h1>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Main Content: Registration Form -->
+    <main>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            
+            <!-- Full Name -->
+            <div>
+                <label for="fullName">Full Name:</label><br>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            </div>
+            <br>
+
+            <!-- Email Address -->
+            <div>
+                <label for="userEmail">Email Address:</label><br>
+                <input type="email" id="userEmail" name="userEmail" placeholder="example@email.com" required>
+            </div>
+            <br>
+
+            <!-- Password -->
+            <div>
+                <label for="userPassword">Password:</label><br>
+                <input type="password" id="userPassword" name="userPassword" placeholder="Enter a secure password" required>
+            </div>
+            <br>
+
+            <!-- CNIC -->
+            <div>
+                <label for="userCnic">CNIC:</label><br>
+                <input type="text" id="userCnic" name="userCnic" placeholder="XXXXX-XXXXXXX-X" pattern="[0-9]{5}-[0-9]{7}-[0-9]{1}" required>
+            </div>
+            <br>
+
+            <!-- Date of Birth -->
+            <div>
+                <label for="userDob">Date of Birth:</label><br>
+                <input type="date" id="userDob" name="userDob" required>
+            </div>
+            <br>
+
+            <!-- File Upload -->
+            <div>
+                <label for="userFile">Upload Document / Picture:</label><br>
+                <input type="file" id="userFile" name="userFile" required>
+            </div>
+            <br>
+
+            <!-- Submit Button -->
+            <div>
+                <button type="submit">Submit Registration</button>
+            </div>
+
+        </form>
+    </main>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Portal Inc. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
