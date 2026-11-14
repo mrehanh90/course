@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #10142c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.card {
+  background-color: #11152e;
+  width: 250px;
+  border-radius: 0 0 60px 60px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.top-tab {
+  width: 170px;
+  height: 45px;
+  margin: -10px auto 0;
+  border-radius: 0 0 25px 25px;
+  line-height: 45px;
+  font-weight: bold;
+  color: #11152e;
+}
+
+.price-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.amount {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.duration {
+  font-size: 12px;
+  color: #cccccc;
+  text-align: left;
+  margin-left: 8px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 0 35px;
+  margin-bottom: 30px;
+}
+
+li {
+  color: #dddddd;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.yes {
+  color: #4bb543;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.no {
+  color: #e64c3c;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #dddddd;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.basic .top-tab {
+  background-color: #3698d4;
+}
+.basic .amount {
+  color: #3698d4;
+}
+
+.standard .top-tab {
+  background-color: #00d2be;
+}
+.standard .amount {
+  color: #00d2be;
+}
+
+.premium .top-tab {
+  background-color: #198ae0;
+}
+.premium .amount {
+  color: #198ae0;
+}
